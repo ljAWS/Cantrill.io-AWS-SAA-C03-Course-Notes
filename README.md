@@ -286,8 +286,9 @@ Can be accessed anywhere from the internet with an unlimited amount of users.
 
 This should be the default storage platform
 
-S3 is an object storage, not file, or block storage.
+S3 is an object storage, not file, or block storage. It has no file system, all files are in the root.
 You can't mount an S3 Bucket.
+S3 should be your default for INPUT and/or OUTPUT to many AWS products.
 
 #### 1.2.6.1. Objects
 
@@ -313,8 +314,13 @@ Other components:
 - Name is globally unique
 - All objects are stored within the bucket at the same level.
 
+Buckets limits:
+- 100 buckets soft limit (per region), 1000 hard limit (per account)
+- unlimited objects in bucket, from 0 bytes to 5TB for individual object
+
 If the objects name starts with a slash such as `/old/Koala1.jpg` the UI will
 present this as a folder. In actuality this is not true, there are no folders.
+`/old` is called a prefix in this case.
 
 ### 1.2.7. CloudFormation Basics
 
