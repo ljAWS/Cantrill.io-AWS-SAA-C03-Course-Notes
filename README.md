@@ -4,6 +4,7 @@
 
 **Table of Contents**
 
+- [1.0. Multi-factor Authentication](#10-Multi--Factor-Authentication-(MFA))
 - [1.1. Cloud Computing Fundamentals](#11-cloud-computing-fundamentals)
 - [1.2. AWS-Fundamentals](#12-aws-fundamentals)
 - [1.3. IAM-Accounts-AWS-Organizations](#13-iam-accounts-aws-organizations)
@@ -38,9 +39,6 @@ Why MFA is needed
 4. AWS MFA can be activated using a physical MFA device ( like a keyfob) that generates passwords/code
    automatically or an MFA app, such as Google Authenticator or DUO
 
-
-1. On-Demand Self-Service: Provision and terminate using a UI/CLI without
-human interaction.
 
 ## 1.1. Cloud Computing Fundamentals
 
