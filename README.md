@@ -38,7 +38,7 @@ Why MFA is needed
 
 4. AWS MFA can be activated using a physical MFA device ( like a keyfob) that generates passwords/code periodically and
    automatically every 30 seconds or so or an MFA app, such as Google Authenticator or DUO.
-
+     ** Each user within an account needs their own MFA attached to the account.
 
 ## 1.1. Cloud Computing Fundamentals
 
