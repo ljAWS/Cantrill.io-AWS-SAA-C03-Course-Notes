@@ -23,7 +23,15 @@
 - [1.17. Security-Deployment-Operations](#117-security-deployment-operations)
 - [1.18. NoSQL-and-DynamoDB](#118-nosql-and-dynamodb)
 
----
+## 1.0. Multi-Factor Authentication (MFA)
+
+Why MFA is needed
+
+-- Factors - differetn pieces of evidence which prove identity
+
+
+1. On-Demand Self-Service: Provision and terminate using a UI/CLI without
+human interaction.
 
 ## 1.1. Cloud Computing Fundamentals
 
