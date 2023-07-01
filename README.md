@@ -36,8 +36,8 @@ Why MFA is needed
    * location: physical location(IP address), which network (WIFI/VPN)
 3. More factores = more security.
 
-4. AWS MFA can be activated using a physical MFA device ( like a keyfob) that generates passwords/code
-   automatically or an MFA app, such as Google Authenticator or DUO
+4. AWS MFA can be activated using a physical MFA device ( like a keyfob) that generates passwords/code periodically and
+   automatically every 30 seconds or so or an MFA app, such as Google Authenticator or DUO.
 
 
 ## 1.1. Cloud Computing Fundamentals
