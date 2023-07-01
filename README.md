@@ -27,7 +27,16 @@
 
 Why MFA is needed
 
--- Factors - differetn pieces of evidence which prove identity
+1. Factors - differetn pieces of evidence which prove identity.
+2. Authentification Factors:
+   * Kowledge: something you know (usernames, passwords)
+   * Possession: something you have, (bank card, MFA device or app)
+   * Inherent: somthing you are (fingerprints, face, voice, eye's iris)
+   * location: physical location(IP address), which network (WIFI/VPN)
+3. More factores = more security.
+
+4. AWS MFA can be activated using a physical MFA device ( like a keyfob) that generates passwords/code
+   automatically or an MFA app, such as Google Authenticator or DUO
 
 
 1. On-Demand Self-Service: Provision and terminate using a UI/CLI without
